@@ -8,7 +8,7 @@ It provides some minimal code just to demonstrate usage.
 Requires
 ---------------
 * Please download latest version of SBT.
-* [sbt 1.0.3](http://www.scala-sbt.org)
+* [sbt 1.1.0](http://www.scala-sbt.org)
 
 Use
 ---------------
