@@ -32,7 +32,7 @@ lazy val generalModuleSettings = Seq(
 
   // Uncommenting this line sometime helps troubleshooting if you are having issues with jars download (for example, if behind a proxy)
   //ivyLoggingLevel := UpdateLogging.Full
-  publishArtifact in Test := false,
+  Test / publishArtifact := false,
   publishTo := {
     val basePublishingUrl = "http://internal-repo/" //your proxy reporsitory url
     val suffix = if(isSnapshot.value) "snapshots" else "releases"
